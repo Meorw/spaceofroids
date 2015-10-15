@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderChimp", "RenderChimp.vcxproj", "{E068E26E-4802-4A77-9CE1-BCB1D6185133}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		OpenGL 3.0, Debug|Win32 = OpenGL 3.0, Debug|Win32
+		OpenGL 3.0, Release|Win32 = OpenGL 3.0, Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E068E26E-4802-4A77-9CE1-BCB1D6185133}.OpenGL 3.0, Debug|Win32.ActiveCfg = OpenGL 2.0, Debug|Win32
+		{E068E26E-4802-4A77-9CE1-BCB1D6185133}.OpenGL 3.0, Debug|Win32.Build.0 = OpenGL 2.0, Debug|Win32
+		{E068E26E-4802-4A77-9CE1-BCB1D6185133}.OpenGL 3.0, Release|Win32.ActiveCfg = OpenGL 2.0, Release|Win32
+		{E068E26E-4802-4A77-9CE1-BCB1D6185133}.OpenGL 3.0, Release|Win32.Build.0 = OpenGL 2.0, Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

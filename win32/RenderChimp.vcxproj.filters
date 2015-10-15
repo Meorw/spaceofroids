@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EDA221">
+      <UniqueIdentifier>{70c4709e-50cf-4950-86b6-d7093c7acde5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDA221\assignment 0">
+      <UniqueIdentifier>{30c14284-1771-45e1-b4fe-47e1328987f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDA221\assignment 1">
+      <UniqueIdentifier>{7a023b6f-4af2-41c8-b92f-1c2d02f511f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDA221\assignment 5">
+      <UniqueIdentifier>{73f023a3-b8e6-4413-b126-4cc78dc9895a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDA221\shaders">
+      <UniqueIdentifier>{a223e428-ca80-4830-ad26-cb972963cb8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDA221\assignment 2-3">
+      <UniqueIdentifier>{25937ee6-48df-4433-b1c4-ef0eae6aa025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{c8ce3c50-d271-4b5f-8162-9317fa73b8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{0fabf9f5-4626-45e4-ad10-9f8008ba746c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneGraph">
+      <UniqueIdentifier>{fdc96c3d-d8f1-4012-ab6d-8c2522341c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneGraph\Scene parsers">
+      <UniqueIdentifier>{cc2976af-a44d-4628-a2d7-b032c81639e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneGraph\Scene parsers\obj">
+      <UniqueIdentifier>{3761fab8-ffdf-4940-b6b0-6137e4dad884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneGraph\Scene parsers\pwn">
+      <UniqueIdentifier>{60d2a90d-b913-4f57-aeab-743f514ed982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneGraph\Nodes">
+      <UniqueIdentifier>{7749212a-930a-4e84-98f5-6e768a2aa182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneGraph\Nodes\System">
+      <UniqueIdentifier>{72ad0376-3b09-4741-a9e5-2e074faedc28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneGraph\Resources">
+      <UniqueIdentifier>{08cff1c6-fad5-4601-9d9d-b4e6ed1a3827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneGraph\Resources\System">
+      <UniqueIdentifier>{b3eb1dc4-e11e-4271-acb3-78ab6d9d141b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SceneGraph\Aux">
+      <UniqueIdentifier>{99f01a5c-4cdb-4b7e-87ab-84bf49a64af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilities">
+      <UniqueIdentifier>{438d37cb-3cee-4e30-b903-6ec1ff87b124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Geometric">
+      <UniqueIdentifier>{1ead4549-1456-4058-a94e-ab9046235b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Geometric\Volumes">
+      <UniqueIdentifier>{576be656-fe70-4f1e-a614-8aeecf78aa4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer">
+      <UniqueIdentifier>{22598ef6-57bf-49d1-9945-fbbeadf47166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer\OpenGL">
+      <UniqueIdentifier>{440c51e2-779d-4daf-b482-01c640e57e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer\OpenGL\2.0 Default shaders">
+      <UniqueIdentifier>{5312d846-abba-4397-a5fd-bbb26dd92fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{d8261a38-160a-446e-9c58-97a6ec61b96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Platform">
+      <UniqueIdentifier>{305e39f9-4dd4-4b28-85d4-ae02a825914c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\External">
+      <UniqueIdentifier>{b2c648e4-f30e-409e-8f50-67995cd537d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Math">
+      <UniqueIdentifier>{9e547675-7e7d-4d4f-b876-196063ab1435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Examples">
+      <UniqueIdentifier>{c39d784f-68ac-439c-a80d-ae1c68728b11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\RenderChimp.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DefaultObjects.h">
+      <Filter>Source\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RenderState.h">
+      <Filter>Source\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SceneGraph.h">
+      <Filter>Source\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SceneGraphAux.h">
+      <Filter>Source\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SceneParser.h">
+      <Filter>Source\SceneGraph\Scene parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FloatHash.h">
+      <Filter>Source\SceneGraph\Scene parsers\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ObjParser.h">
+      <Filter>Source\SceneGraph\Scene parsers\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Pwn.h">
+      <Filter>Source\SceneGraph\Scene parsers\pwn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PwnParser.h">
+      <Filter>Source\SceneGraph\Scene parsers\pwn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Camera.h">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Geometry.h">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Group.h">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Light.h">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Node.h">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Transformable.h">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\World.h">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NodeList.h">
+      <Filter>Source\SceneGraph\Nodes\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CubeMap.h">
+      <Filter>Source\SceneGraph\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RenderTarget.h">
+      <Filter>Source\SceneGraph\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Resource.h">
+      <Filter>Source\SceneGraph\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ShaderProgram.h">
+      <Filter>Source\SceneGraph\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Texture.h">
+      <Filter>Source\SceneGraph\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\VertexArray.h">
+      <Filter>Source\SceneGraph\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ResourceList.h">
+      <Filter>Source\SceneGraph\Resources\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AuxData.h">
+      <Filter>Source\SceneGraph\Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Uniform.h">
+      <Filter>Source\SceneGraph\Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BmpWriter.h">
+      <Filter>Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Text.h">
+      <Filter>Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Plane.h">
+      <Filter>Source\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Volume.h">
+      <Filter>Source\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AABox.h">
+      <Filter>Source\Geometric\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sphere.h">
+      <Filter>Source\Geometric\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Renderer.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RendererGL.h">
+      <Filter>Source\Renderer\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Command.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Console.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Memory.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Misc.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Resolve.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Result.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Types.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Keys.h">
+      <Filter>Source\System\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Platform.h">
+      <Filter>Source\System\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GLee.h">
+      <Filter>Source\System\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\VectorMath.h">
+      <Filter>Source\System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReadMe.h">
+      <Filter>Documentation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ParametricShapes.h">
+      <Filter>EDA221\assignment 2-3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Interpolation.h">
+      <Filter>EDA221\assignment 2-3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\program.h">
+      <Filter>EDA221</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Ray.h">
+      <Filter>Source\Geometric</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\DefaultObjects.cpp">
+      <Filter>Source\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RenderState.cpp">
+      <Filter>Source\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SceneGraph.cpp">
+      <Filter>Source\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SceneParser.cpp">
+      <Filter>Source\SceneGraph\Scene parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FloatHash.cpp">
+      <Filter>Source\SceneGraph\Scene parsers\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ObjParser.cpp">
+      <Filter>Source\SceneGraph\Scene parsers\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PwnParser.cpp">
+      <Filter>Source\SceneGraph\Scene parsers\pwn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera.cpp">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Geometry.cpp">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Group.cpp">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Light.cpp">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Node.cpp">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Transformable.cpp">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\World.cpp">
+      <Filter>Source\SceneGraph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NodeList.cpp">
+      <Filter>Source\SceneGraph\Nodes\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CubeMap.cpp">
+      <Filter>Source\SceneGraph\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RenderTarget.cpp">
+      <Filter>Source\SceneGraph\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Resource.cpp">
+      <Filter>Source\SceneGraph\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShaderProgram.cpp">
+      <Filter>Source\SceneGraph\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Texture.cpp">
+      <Filter>Source\SceneGraph\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VertexArray.cpp">
+      <Filter>Source\SceneGraph\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ResourceList.cpp">
+      <Filter>Source\SceneGraph\Resources\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AuxData.cpp">
+      <Filter>Source\SceneGraph\Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Uniform.cpp">
+      <Filter>Source\SceneGraph\Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BmpWriter.cpp">
+      <Filter>Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Text.cpp">
+      <Filter>Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Plane.cpp">
+      <Filter>Source\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AABox.cpp">
+      <Filter>Source\Geometric\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sphere.cpp">
+      <Filter>Source\Geometric\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RendererGL.cpp">
+      <Filter>Source\Renderer\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Command.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Console.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Memory.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Misc.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RenderChimp.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Result.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlatformMobileEmulator.cpp">
+      <Filter>Source\System\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlatformWin32.cpp">
+      <Filter>Source\System\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlatformWin32GLUT.cpp">
+      <Filter>Source\System\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GLee.cpp">
+      <Filter>Source\System\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VectorMath.cpp">
+      <Filter>Source\System\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\hello_ogre.cpp">
+      <Filter>EDA221\assignment 0</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Interpolation.cpp">
+      <Filter>EDA221\assignment 2-3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\solar_system.cpp">
+      <Filter>EDA221\assignment 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\parametric.cpp">
+      <Filter>EDA221\assignment 2-3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParametricShapes.cpp">
+      <Filter>EDA221\assignment 2-3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game.cpp">
+      <Filter>EDA221\assignment 5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shaders\gl3\Axis.fs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Axis.vs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Camera.fs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Camera.vs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Console.fs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Console.vs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Default.fs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Default.vs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Grid.fs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Grid.vs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Light.fs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Light.vs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Text.fs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Text.vs">
+      <Filter>Source\Renderer\OpenGL\2.0 Default shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Lambert.fs">
+      <Filter>EDA221\shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Lambert.vs">
+      <Filter>EDA221\shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\LambertTexture.fs">
+      <Filter>EDA221\shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\LambertTexture.vs">
+      <Filter>EDA221\shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Normals.fs">
+      <Filter>EDA221\shaders</Filter>
+    </None>
+    <None Include="..\shaders\gl3\Normals.vs">
+      <Filter>EDA221\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

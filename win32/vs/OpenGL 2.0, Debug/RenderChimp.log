@@ -1,0 +1,73 @@
+﻿Build started 2015-10-15 13:49:02.
+     1>Project "\\fs-m\home\mas12isi\Downloads\EDA221_RenderChimp_15\EDA221_RenderChimp_15\win32\RenderChimp.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "vs\OpenGL 2.0, Debug\RenderChimp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include /I..\Include\SDL /ZI /nologo /W4 /WX- /Od /Oy- /D DEBUG /D RC_WIN32 /D RC_OPENGL_20 /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"vs\OpenGL 2.0, Debug\\" /Fd"vs\OpenGL 2.0, Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\Game.cpp
+         Game.cpp
+     1>\\fs-m\home\mas12isi\downloads\eda221_renderchimp_15\eda221_renderchimp_15\src\game.cpp(39): warning C4244: 'argument' : conversion from 'int' to 'f32', possible loss of data
+     1>\\fs-m\home\mas12isi\downloads\eda221_renderchimp_15\eda221_renderchimp_15\src\game.cpp(42): warning C4244: 'argument' : conversion from 'int' to 'f32', possible loss of data
+     1>\\fs-m\home\mas12isi\downloads\eda221_renderchimp_15\eda221_renderchimp_15\src\game.cpp(42): warning C4244: 'argument' : conversion from 'int' to 'f32', possible loss of data
+     1>\\fs-m\home\mas12isi\downloads\eda221_renderchimp_15\eda221_renderchimp_15\src\game.cpp(42): warning C4244: 'argument' : conversion from 'int' to 'f32', possible loss of data
+     1>\\fs-m\home\mas12isi\downloads\eda221_renderchimp_15\eda221_renderchimp_15\src\game.cpp(178): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\RenderChimp.exe" /NOLOGO /LIBPATH:.\lib kernel32.lib user32.lib SDL.lib SDL_image.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"vs\OpenGL 2.0, Debug\RenderChimp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\fs-m\home\mas12isi\Downloads\EDA221_RenderChimp_15\EDA221_RenderChimp_15\win32\bin\RenderChimp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"WinMainCRTStartup" /DYNAMICBASE:NO /FIXED:NO /IMPLIB:"bin\RenderChimp.lib" /MACHINE:X86 "vs\OpenGL 2.0, Debug\DefaultObjects.obj"
+         "vs\OpenGL 2.0, Debug\Game.obj"
+         "vs\OpenGL 2.0, Debug\parametric.obj"
+         "vs\OpenGL 2.0, Debug\ParametricShapes.obj"
+         "vs\OpenGL 2.0, Debug\RenderState.obj"
+         "vs\OpenGL 2.0, Debug\SceneGraph.obj"
+         "vs\OpenGL 2.0, Debug\SceneParser.obj"
+         "vs\OpenGL 2.0, Debug\FloatHash.obj"
+         "vs\OpenGL 2.0, Debug\ObjParser.obj"
+         "vs\OpenGL 2.0, Debug\PwnParser.obj"
+         "vs\OpenGL 2.0, Debug\Camera.obj"
+         "vs\OpenGL 2.0, Debug\Geometry.obj"
+         "vs\OpenGL 2.0, Debug\Group.obj"
+         "vs\OpenGL 2.0, Debug\Light.obj"
+         "vs\OpenGL 2.0, Debug\Node.obj"
+         "vs\OpenGL 2.0, Debug\solar_system.obj"
+         "vs\OpenGL 2.0, Debug\Transformable.obj"
+         "vs\OpenGL 2.0, Debug\World.obj"
+         "vs\OpenGL 2.0, Debug\NodeList.obj"
+         "vs\OpenGL 2.0, Debug\CubeMap.obj"
+         "vs\OpenGL 2.0, Debug\RenderTarget.obj"
+         "vs\OpenGL 2.0, Debug\Resource.obj"
+         "vs\OpenGL 2.0, Debug\ShaderProgram.obj"
+         "vs\OpenGL 2.0, Debug\Texture.obj"
+         "vs\OpenGL 2.0, Debug\VertexArray.obj"
+         "vs\OpenGL 2.0, Debug\ResourceList.obj"
+         "vs\OpenGL 2.0, Debug\AuxData.obj"
+         "vs\OpenGL 2.0, Debug\Uniform.obj"
+         "vs\OpenGL 2.0, Debug\BmpWriter.obj"
+         "vs\OpenGL 2.0, Debug\Text.obj"
+         "vs\OpenGL 2.0, Debug\Plane.obj"
+         "vs\OpenGL 2.0, Debug\AABox.obj"
+         "vs\OpenGL 2.0, Debug\Sphere.obj"
+         "vs\OpenGL 2.0, Debug\Renderer.obj"
+         "vs\OpenGL 2.0, Debug\RendererGL.obj"
+         "vs\OpenGL 2.0, Debug\Command.obj"
+         "vs\OpenGL 2.0, Debug\Console.obj"
+         "vs\OpenGL 2.0, Debug\Memory.obj"
+         "vs\OpenGL 2.0, Debug\Misc.obj"
+         "vs\OpenGL 2.0, Debug\RenderChimp.obj"
+         "vs\OpenGL 2.0, Debug\Result.obj"
+         "vs\OpenGL 2.0, Debug\PlatformMobileEmulator.obj"
+         "vs\OpenGL 2.0, Debug\PlatformWin32.obj"
+         "vs\OpenGL 2.0, Debug\PlatformWin32GLUT.obj"
+         "vs\OpenGL 2.0, Debug\GLee.obj"
+         "vs\OpenGL 2.0, Debug\VectorMath.obj"
+         "vs\OpenGL 2.0, Debug\hello_ogre.obj"
+         "vs\OpenGL 2.0, Debug\Interpolation.obj"
+         LINK : bin\RenderChimp.exe not found or not built by the last incremental link; performing full link
+         RenderChimp.vcxproj -> \\fs-m\home\mas12isi\Downloads\EDA221_RenderChimp_15\EDA221_RenderChimp_15\win32\bin\RenderChimp.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\RenderChimp.exe;#1" /manifest "vs\OpenGL 2.0, Debug\RenderChimp.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "vs\OpenGL 2.0, Debug\RenderChimp.unsuccessfulbuild".
+         Touching "vs\OpenGL 2.0, Debug\RenderChimp.lastbuildstate".
+     1>Done Building Project "\\fs-m\home\mas12isi\Downloads\EDA221_RenderChimp_15\EDA221_RenderChimp_15\win32\RenderChimp.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.90
