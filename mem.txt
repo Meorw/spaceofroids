@@ -1,6 +1,0 @@
- - - = = Allocated memory pointers = = - - 
-  [ TOTAL MEM    ][200864]
-  [ PEAK MEM     ][20448145]
-  [ TOTAL BLOCKS ][417]
-
-
