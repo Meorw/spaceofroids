@@ -1,6 +1,6 @@
 # space of 200 roids
 
-a space game. with roids.
+a space game. with roids. (play [here](https://meorw.github.io/spaceofroids))  
 
 Controls: WASD
 
